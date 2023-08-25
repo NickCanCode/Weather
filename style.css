@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=Nunito+Sans:wght@500&display=swap');
+
+html {
+  height: 100%;
+  width: 100%;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(91, 91, 230, 1) 0%, rgba(0, 212, 255, 1) 100%);
+  color: white;
+  font-family: 'Comfortaa', cursive;
+  text-align: center;
+}
+
+input {
+  width: 50%;
+  background-color: white;
+  padding: 1%;
+  border-radius: 25px;
+  border-color: white;
+  border-style: solid;
+  text-align: center;
+  color: black;
+  font-family: 'Comfortaa', cursive;
+}
+
+button {
+  padding: 1%;
+  background-color: transparent;
+  border-color: white;
+  border-style: solid;
+  color: white;
+  border-radius: 25px;
+  transition: 0.2s;
+  font-family: 'Comfortaa', cursive;
+}
+
+button:hover {
+  padding: 1.2%;
+}
+
+#output {
+  margin: 3%;
+}
+
+#info {
+  margin-top: 15%;
+}

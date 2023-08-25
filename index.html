@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Weather</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div id="info">
+    <h1 id="title">Weather</h1>
+    <div id="search">
+      <input id="cityLocal" type="text" placeholer="Enter city name">
+      <button onclick="checkWeather()">Submit</button>
+    </div>
+    <!-- <button onclick="newLoc()">TEST</button> -->
+    <div id="quickLinks"></div>
+    <div id="output">
+      <h1 class="city"></h1>
+      <h2 id="weatherType"></h2>
+      <h2 id="temp"></h2>
+      <h2 id="windSpeed"></h2>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
